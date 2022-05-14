@@ -6,6 +6,11 @@ const theme = {
   },
   typography: {
     h1: { fontSize: 1.802, lineHeight: 1.3, fontWeight: 400 },
+    h2: { fontSize: 1.602, lineHeight: 1.3, fontWeight: 400 },
+    h3: { fontSize: 1.424, lineHeight: 1.3, fontWeight: 400 },
+    h4: { fontSize: 1.266, lineHeight: 1.3, fontWeight: 400 },
+    h5: { fontSize: 1.125, lineHeight: 1.3, fontWeight: 400 },
+    small: { fontSize: 0.889, lineHeight: 1.3, fontWeight: 400 },
     paragraph: { fontSize: '1em' },
   },
   spaces: ['0px', '2px', '4px', '8px', '16px', '32px'],

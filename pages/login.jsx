@@ -5,7 +5,18 @@ import React from 'react'
 import { css } from '@emotion/react'
 import Head from 'next/head'
 import LayoutAuth from '../containers/LayoutAuth/LayoutAuth'
-import { Button, InputEmail, InputPassword, H1, Space } from '../components'
+import {
+  Button,
+  InputEmail,
+  InputPassword,
+  H1,
+  Space,
+  H2,
+  H3,
+  H4,
+  H5,
+  Small,
+} from '../components'
 import FormControl from '../containers/FormControl/FormControl'
 
 export default function Home() {
@@ -26,6 +37,12 @@ export default function Home() {
       <LayoutAuth>
         <Space />
         <H1 align="center">به این پروژه ریکتی خوش آمدید</H1>
+        <H2 align="center">به این پروژه ریکتی خوش آمدید</H2>
+        <H3 align="center">به این پروژه ریکتی خوش آمدید</H3>
+        <H4 align="center">به این پروژه ریکتی خوش آمدید</H4>
+        <H5 align="center">به این پروژه ریکتی خوش آمدید</H5>
+        <Small align="center">به این پروژه ریکتی خوش آمدید</Small>
+
         <Space />
 
         <form onSubmit={handleSubmit}>
